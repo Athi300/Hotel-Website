@@ -1,0 +1,313 @@
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+}
+
+
+body{
+  background: var(--white);
+  color: var(--black);
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+  margin-bottom: -600px;
+  
+}
+
+*,
+::before,
+::after{
+  box-sizing: border-box;
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 100px;
+  border: 1px;
+  background: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  background-color: rgb(251, 251, 245);
+  height: 120px;
+}
+
+.logo{
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.logo:hover{
+  color: #ff764d;
+  animation: ease-in;
+}
+
+
+.navbar a{
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--black);
+  text-decoration: none;
+  margin-left: 40px;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  right: 30px;
+  top: 30px;
+  
+}
+
+.main{
+  color: aliceblue;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.sign-up {
+  color:#ff764d;
+  text-decoration: none;
+  padding-left: 50px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.login {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+
+}
+
+.main-img{
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  padding: 50px;
+  width: 100%;
+  height: 50%;
+}
+
+.book{
+  color: red;
+  cursor: pointer;
+}
+
+.intro-paragraph{
+  font-weight:600;
+  color: black;
+  text-align: center;
+  position: relative;
+  display: block;
+  width: 100%;
+  top: -80px;
+  
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: 50% 50% ;
+  gap: 50px;
+  margin: 20px auto;
+  width: 150%;
+  height: 900px;
+  position: relative;
+  bottom: 180px
+  ;
+  
+}
+
+.information{
+ 
+  width: 700px;
+  position: relative;
+  left: 450px;
+  height: 450px;
+  padding-left: 100px;
+   
+}
+
+.img{
+ position: relative;
+ right: 350px;
+} 
+
+.img-book{
+  position: relative;
+  left: 640px;
+  top: -150px;
+}
+
+.book-disc{
+  width: 60%;
+  position: relative;
+  top: 200px;
+  left: 20px;
+  text-align: center;
+}
+
+.book-para{
+  font-size: 18px;
+  position: relative;
+  bottom: -70px;
+  width: 90%;
+  text-align: center;
+  padding-left: 50px;
+
+}
+
+.button{
+  position: relative;
+  top: -290px;
+  padding: 10px;
+  border-radius: 20px;
+  left: 250px;
+  cursor: pointer;
+}
+
+.navbar a:hover{
+  color:#ff764d
+}
+
+.sign-up:hover{
+  color: grey;
+  cursor: pointer;
+  
+}
+
+.login:hover{
+  color: grey;
+}
+
+.featured-heading{
+  position: relative;
+  bottom: 450px;
+  left: 80px;
+}
+
+.media-scroller{
+  display: flex;
+  position: relative;
+  top: -400px;
+  padding: 0 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth ;
+  padding: 10px;
+ scroll-snap-type: x mandatory;
+  transition: ease 250ms;
+}
+
+.media-element{
+  margin: 10px;
+  width: 80%;
+  text-align: center;
+}
+
+
+.media-scroller::-webkit-scrollbar{
+  display: none;
+  aspect-ratio: 16/9;
+}
+
+
+.donations{
+  position: relative;
+  bottom: 350px;
+  text-align: center;
+}
+
+.line{
+  width: 90%;
+  height: 1px;
+  border-bottom: 2px solid black;
+  position: relative;
+  top: 180px;
+  margin-left: 20px;
+}
+
+
+.socials{
+  text-align: right;
+  margin: 5px;
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 500px;
+}
+
+.footer-heading{
+  position: relative;
+  top: 200px;
+  margin-left: 40px;
+}
+
+.footer-block{
+  position: relative;
+  top: 200px;
+  padding: 30px;
+  
+}
+
+.footer-block-two{
+  position: relative;
+  left: 200px;
+  top: 22px;
+  padding: 10px;
+  
+}
+.email{
+  text-align: center;
+  position: relative;
+  top: -110px;
+  left: 550px;
+  font-size: 24px;
+  width: 50%;
+}
+
+.ab{
+  padding: 8px;
+}
+
+.bc{
+  padding: 8px;
+}
+
+.newsletter{
+  color: red;
+  cursor: pointer;
+}
+
+.travel-guide{
+  color: red;
+  cursor: pointer;
+}
+
+.btn-subscribe{
+  padding: 5px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #ff764d;
+}
+
+.email-input{
+  border-top: 0px ;
+  border-color:#ff764d ;
+  border-left: 0px;
+  border-right: 0px;
+  background-color: rgb(251, 251, 245);
+
+}
+
+
+
+
+
